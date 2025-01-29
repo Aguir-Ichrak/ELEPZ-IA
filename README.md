@@ -7,11 +7,15 @@ Accédez au répertoire du projet et exécutez npm install et npm install pour l
 Télechargez MongoBd via ce lien: https://www.mongodb.com/try/download/community
 Démarrez le serveur de développement en exécutant npm start(back) et npm run dev(Front) en même 
 temps, avec la commande mongod dans un autre terminale
+
+
 🔬 Documentation
+
 API :
 ------------ AUTH ----------- 
 POST /api/auth/login connexion
 PUT /api/auth/register créer un compte
+
 ------------ BLOG ----------- 
 GET /api/blogs
 Cet api renvoie une liste de tous les blogs. Chaque blog a  les propriétés suivantes :
